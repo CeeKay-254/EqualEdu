@@ -1,0 +1,95 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8;
+}
+
+.header {
+    background-color: #945050;
+    color: white;
+    padding: 0rem;
+    text-align: center;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+}
+
+
+.logo {
+    width: 120px; 
+    height: auto; 
+    margin-right: 20px; 
+}
+
+.header-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.header h1 {
+    font-weight: bold; 
+    font-size: 2.5rem; 
+    letter-spacing: 1px; 
+    font-family: 'Montserrat', sans-serif; 
+}
+
+
+.hero {
+    background: url('education.jpg') no-repeat center center; 
+    background-size: cover; 
+    height: 400px; 
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.hero h2, .hero p {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.header nav {
+    display: flex;
+    justify-content: center; 
+    gap: 15px; 
+}
+
+.header nav a {
+    color: white; 
+    text-decoration: none; 
+    padding: 10px 15px; 
+}
+
+.cta {
+    background-color: #ffcc00;
+    padding: 10px 5px; 
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 15px auto; 
+    display: block; 
+    width: 150px; 
+    text-align: center; 
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    background-color: #f7f9fa;
+}
+
+.feature {
+    text-align: center;
+    width: 30%;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}

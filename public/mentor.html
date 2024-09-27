@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find a Mentor - EqualEdu</title>
+</head>
+<body style="font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f0f4f8;">
+    <header style="background-color: #945050;; color: white; padding: 1rem; text-align: center;">
+        <h1>Find a Mentor</h1>
+        <nav>
+            <ul style="list-style: none; display: flex; justify-content: center; padding: 0;">
+                <li style="margin: 0 15px;"><a href="index.html" style="color: white; text-decoration: none;">Home</a></li>
+                <li style="margin: 0 15px;"><a href="mentor.html" style="color: white; text-decoration: none;">Find a Mentor</a></li>
+                <li style="margin: 0 15px;"><a href="resources.html" style="color: white; text-decoration: none;">Resources</a></li>
+                <li style="margin: 0 15px;"><a href="stories.html" style="color: white; text-decoration: none;">Student Stories</a></li>
+                <li style="margin: 0 15px;"><a href="donate.html" style="color: white; text-decoration: none;">Donate</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main style="padding: 2rem; text-align: center;">
+        <h2 style="color: #333;">Get Matched with a Mentor</h2>
+        <p>Fill in the details below to find a mentor who can guide you in your studies.</p>
+        <form action="/mentor-match" method="POST" style="margin-top: 1.5rem;">
+            <label for="studentName" style="display: block; margin-bottom: 8px;">Your Name:</label>
+            <input type="text" id="studentName" name="studentName" style="padding: 8px; width: 50%; margin-bottom: 1rem;">
+
+            <label for="subject" style="display: block; margin-bottom: 8px;">Subject of Interest:</label>
+            <input type="text" id="subject" name="subject" style="padding: 8px; width: 50%; margin-bottom: 1rem;">
+
+            <button type="submit" style="background-color: #ffcc00; color: black; padding: 10px 20px; border: none; cursor: pointer; margin-top: 1rem;">Find Mentor</button>
+        </form>
+    </main>
+
+    <footer style="background-color: #333; color: white; text-align: center; padding: 1rem;">
+        <p>&copy; 2024 EqualEdu</p>
+    </footer>
+</body>
+</html>
